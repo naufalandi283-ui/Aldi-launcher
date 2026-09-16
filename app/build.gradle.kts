@@ -14,7 +14,7 @@ android {
         versionName = "1.0-Aldi"
     }
     buildTypes {
-        release { minifyEnabled = false }
+    release { isMinifyEnabled = false }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
